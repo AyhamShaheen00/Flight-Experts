@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinema</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="departure_arrival.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="MyDayDisplay" class="day" onload="showTime()"></div>
+    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col" class="head">movies</th>
+          <th scope="col" class="head">movies Name</th>
+          <th scope="col" class="head">show time</th>
+          <!-- <th scope="col" class="head">Scheduled</th>
+          <th scope="col" class="head">Estimated</th>
+          <th scope="col" class="head">Gate</th> -->
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">#<span>1</span></th>
+          <td>
+            <a href="#">captain america</a>
+          </td>
+          <td><span>17/02/2022 </span><span> 10:00</span></td>
+          <!-- <td><span>17/02/2022 </span><span> 11:35</span></td>
+          <td><span>17/02/2022 </span><span> 11:28</span></td>
+          <td><span>222 </span></td> -->
+        </tr>
+        <tr>
+          <th scope="row">#<span>2</span></th>
+          <td>
+            <a href="#">Hotel Transylvania 3: Summer Vacation</a>
+          </td>
+          <td><span>17/02/2022 </span><span> 12:45</span></td>
+          <!-- <td><span>17/02/2022 </span><span> 13:20</span></td>
+          <td><span>17/02/2022 </span><span> 13:15</span></td>
+          <td><span>206 </span></td> -->
+        </tr>
+      </tbody>
+    </table>
+
+    <!--  model_part-->
+    <!-- <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header heading">SIGN <span>IN</span></h2>
+      <form class="modal__form">
+        <label>User Name:</label>
+        <input type="text" />
+        <label>Password:</label>
+        <input type="password" />
+        <!-- <label>Email Address</label>
+            <input type="email" /> --
+        <button class="btn">Sign in &rarr;</button>
+        <button class="btn">
+          <a href="forgetpage.html">forget password &rarr;</a>
+        </button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+     -->
+    <script src="cinema.js"></script>
+  </body>
+</html>
